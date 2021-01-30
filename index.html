@@ -1,0 +1,39 @@
+<!-- 
+  태그를 가져오는 방법 2가지
+  1. querySelector 찾은 첫번째꺼 가져옴
+  2. querySelectorAll 모든 거 반환. array를 반환. 잘 안씀.
+
+  자바스크립트는 로컬 스토리지에 모든 데이터를 string으로 저장한다 
+
+  JSON : JavaScript Object Notation
+-->
+
+<!DOCTYPE html>
+<html>
+  <head lnag="kr">
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="js-clock">
+      <h1>00:00</h1>
+    </div>
+    <!-- 태그명과 클래스명을 동일하게 쓴다. 좋을듯 -->
+    <form class="js-form form">
+      <input type="text" placeholder="What is your name?" />
+    </form>
+    <h4 class="js-greetings greetings"></h4>
+    <form class="js-toDoForm">
+      <input type="text" placeholder="Write a to do" />
+    </form>
+    <ul class="js-toDoList"></ul>
+    <span class="js-weather"></span>
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>
